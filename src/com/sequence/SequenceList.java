@@ -1,3 +1,4 @@
+/*
 package com.sequence;
 
 import java.util.Iterator;
@@ -87,3 +88,4 @@ public class SequenceList<T> implements Iterable<T>{
 
     }
 }
+*/
