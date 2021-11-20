@@ -5,5 +5,6 @@ public class gitTest {
         System.out.println("AAAAAAAA");
         System.out.println("linlin");
         System.out.println("zhang");
+        System.out.println("上传到远程库");
     }
 }
