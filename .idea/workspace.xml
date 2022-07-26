@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cc55e50-c55b-49a1-9b21-00e066fe5ac7" name="Default Changelist" comment="测试代码:写算法用途">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/collection/EFG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/collection/lin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Text/com/demo/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Text/com/demo/Sort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,22 +21,24 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1yLPkBpKTLhkV3XiChRUrkJqhyB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -46,11 +47,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.TestString">
-    <configuration name="CollectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.collection.CollectionTest" />
+  <component name="RunManager" selected="Application.SelectionSort">
+    <configuration name="HashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.collection.HashSetTest" />
       <module name="Text" />
       <extension name="coverage">
         <pattern>
@@ -62,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.collection.HashSetTest" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sort.SelectionSort" />
       <module name="Text" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.collection.*" />
+          <option name="PATTERN" value="com.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,6 +90,8 @@
       </method>
     </configuration>
     <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.string.TestString" />
       <module name="Text" />
       <extension name="coverage">
@@ -114,13 +117,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.HashSetTest" />
+      <item itemvalue="Application.securityRunable" />
+      <item itemvalue="Application.TestSinleton" />
+      <item itemvalue="Application.TestString" />
+      <item itemvalue="Application.SelectionSort" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.TestString" />
         <item itemvalue="Application.TestSinleton" />
         <item itemvalue="Application.securityRunable" />
         <item itemvalue="Application.HashSetTest" />
-        <item itemvalue="Application.CollectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +146,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -186,6 +197,7 @@
       <workItem from="1636707981187" duration="1126000" />
       <workItem from="1637157904644" duration="35000" />
       <workItem from="1637404280134" duration="673000" />
+      <workItem from="1658803919766" duration="466000" />
     </task>
     <task id="LOCAL-00001" summary="测试代码:写算法用途">
       <created>1636707435075</created>
@@ -226,104 +238,10 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试代码:写算法用途" />
     <option name="LAST_COMMIT_MESSAGE" value="测试代码:写算法用途" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="324" y="96" key="#Project_Structure" timestamp="1632028048757">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="324" y="96" key="#Project_Structure/0.0.1463.874@0.0.1463.874" timestamp="1632028048757" />
-    <state x="537" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1636643698758">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="537" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1463.874@0.0.1463.874" timestamp="1636643698758" />
-    <state x="350" y="34" key="CommitChangelistDialog2" timestamp="1637408130168">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="350" y="34" key="CommitChangelistDialog2/0.0.1463.874@0.0.1463.874" timestamp="1637408130168" />
-    <state x="93" y="93" width="1277" height="688" key="DiffContextDialog" timestamp="1632846108292">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="93" y="93" width="1277" height="688" key="DiffContextDialog/0.0.1463.874@0.0.1463.874" timestamp="1632846108292" />
-    <state x="512" y="193" key="FileChooserDialogImpl" timestamp="1637407637842">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="512" y="193" key="FileChooserDialogImpl/0.0.1463.874@0.0.1463.874" timestamp="1637407637842" />
-    <state x="607" y="333" width="571" height="343" key="Github.ShareDialog" timestamp="1636710189423">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="607" y="333" width="571" height="343" key="Github.ShareDialog/0.0.1463.874@0.0.1463.874" timestamp="1636710189423" />
-    <state width="1420" height="255" key="GridCell.Tab.0.bottom" timestamp="1635349560712">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state width="1420" height="255" key="GridCell.Tab.0.bottom/0.0.1463.874@0.0.1463.874" timestamp="1635349560712" />
-    <state width="1420" height="255" key="GridCell.Tab.0.center" timestamp="1635349560712">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state width="1420" height="255" key="GridCell.Tab.0.center/0.0.1463.874@0.0.1463.874" timestamp="1635349560712" />
-    <state width="1420" height="255" key="GridCell.Tab.0.left" timestamp="1635349560712">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state width="1420" height="255" key="GridCell.Tab.0.left/0.0.1463.874@0.0.1463.874" timestamp="1635349560712" />
-    <state width="1420" height="255" key="GridCell.Tab.0.right" timestamp="1635349560712">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state width="1420" height="255" key="GridCell.Tab.0.right/0.0.1463.874@0.0.1463.874" timestamp="1635349560712" />
-    <state width="1420" height="158" key="GridCell.Tab.1.bottom" timestamp="1635349560708">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state width="1420" height="158" key="GridCell.Tab.1.bottom/0.0.1463.874@0.0.1463.874" timestamp="1635349560708" />
-    <state width="1420" height="158" key="GridCell.Tab.1.center" timestamp="1635349560708">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state width="1420" height="158" key="GridCell.Tab.1.center/0.0.1463.874@0.0.1463.874" timestamp="1635349560708" />
-    <state width="1420" height="158" key="GridCell.Tab.1.left" timestamp="1635349560708">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state width="1420" height="158" key="GridCell.Tab.1.left/0.0.1463.874@0.0.1463.874" timestamp="1635349560708" />
-    <state width="1420" height="158" key="GridCell.Tab.1.right" timestamp="1635349560708">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state width="1420" height="158" key="GridCell.Tab.1.right/0.0.1463.874@0.0.1463.874" timestamp="1635349560708" />
-    <state x="2" y="0" key="SettingsEditor" timestamp="1636710076094">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="2" y="0" key="SettingsEditor/0.0.1463.874@0.0.1463.874" timestamp="1636710076094" />
-    <state x="454" y="179" width="555" height="524" key="StructurePopup" timestamp="1632742903838">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="454" y="179" width="555" height="524" key="StructurePopup/0.0.1463.874@0.0.1463.874" timestamp="1632742903838" />
-    <state x="414" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1632135751791">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="414" y="262" key="com.intellij.ide.util.TipDialog/0.0.1463.874@0.0.1463.874" timestamp="1632135751791" />
-    <state x="529" y="356" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636709371257">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="529" y="356" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1463.874@0.0.1463.874" timestamp="1636709371257" />
-    <state x="421" y="192" width="621" height="490" key="find.popup" timestamp="1636707368955">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="421" y="192" width="621" height="490" key="find.popup/0.0.1463.874@0.0.1463.874" timestamp="1636707368955" />
-    <state x="493" y="159" key="git4idea.branch.GitSmartOperationDialog" timestamp="1637408159147">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="493" y="159" key="git4idea.branch.GitSmartOperationDialog/0.0.1463.874@0.0.1463.874" timestamp="1637408159147" />
-    <state x="97" y="54" key="new project wizard" timestamp="1636528782870">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="97" y="54" key="new project wizard/0.0.1463.874@0.0.1463.874" timestamp="1636528782870" />
-    <state x="104" y="300" width="826" height="340" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1632124089358">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="104" y="300" width="826" height="340" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1463.874@0.0.1463.874" timestamp="1632124089358" />
-    <state x="394" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1632743705606">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="394" y="184" width="672" height="678" key="search.everywhere.popup/0.0.1463.874@0.0.1463.874" timestamp="1632743705606" />
   </component>
 </project>
