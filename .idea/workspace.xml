@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cc55e50-c55b-49a1-9b21-00e066fe5ac7" name="Default Changelist" comment="测试代码:写算法用途">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Text/com/demo/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Text/com/demo/Sort.class" afterDir="false" />
-    </list>
+    <list default="true" id="8cc55e50-c55b-49a1-9b21-00e066fe5ac7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +40,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -197,7 +197,7 @@
       <workItem from="1636707981187" duration="1126000" />
       <workItem from="1637157904644" duration="35000" />
       <workItem from="1637404280134" duration="673000" />
-      <workItem from="1658803919766" duration="466000" />
+      <workItem from="1658803919766" duration="948000" />
     </task>
     <task id="LOCAL-00001" summary="测试代码:写算法用途">
       <created>1636707435075</created>
@@ -234,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637407876130</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="测试代码:写算法用途">
+      <created>1658804636058</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658804636058</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
